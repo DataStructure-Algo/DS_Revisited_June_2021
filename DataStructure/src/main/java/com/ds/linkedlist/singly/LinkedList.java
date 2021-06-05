@@ -23,7 +23,7 @@ public class LinkedList<T> extends AbstractLinkedList<T> {
     }
 
     @Override
-    public void addHead(T data) {
+    public void addAtHead(T data) {
         Node<T> node = new Node<>(data);
         if (head == null) {
             head = tail = node;

@@ -21,10 +21,10 @@ public class AddTwoNumbersUsingLinkedList {
             } else {
                 carry = 0;
             }
-            result.addHead(sum);
+            result.addAtHead(sum);
         }
         if (carry > 0) {
-            result.addHead(carry);
+            result.addAtHead(carry);
         }
         return result;
     }

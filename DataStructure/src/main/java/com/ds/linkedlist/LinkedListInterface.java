@@ -11,7 +11,7 @@ public interface LinkedListInterface <T>{
      * Adds the item at the head of the list
      * @param data - data item
      */
-    void addHead(T data);
+    void addAtHead(T data);
 
     /**
      * deletes the last item from the non-empty list

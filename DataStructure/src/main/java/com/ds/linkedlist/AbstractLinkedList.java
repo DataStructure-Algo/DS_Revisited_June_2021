@@ -82,7 +82,7 @@ public abstract class AbstractLinkedList<T> implements LinkedListInterface<T>, I
         }
     }
 
-    protected static class Node<T> {
+    public static class Node<T> {
         public final T data;
         protected Node<T> prev, next;
 
